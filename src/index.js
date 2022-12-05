@@ -16,7 +16,8 @@ viewer.scene.primitives.add(createOsmBuildings());
 
 // Fly the camera to San Francisco at the given longitude, latitude, and height.
 viewer.camera.flyTo({
-  destination : Cartesian3.fromDegrees(-122.4175, 37.655, 400),
+  destination : Cartesian3.fromDegrees(116.605463, 34.72937452, 400),
+  // destination : Cartesian3.fromDegrees(-122.4175, 37.655, 400),
   orientation : {
     heading : Math.toRadians(0.0),
     pitch : Math.toRadians(-15.0),
